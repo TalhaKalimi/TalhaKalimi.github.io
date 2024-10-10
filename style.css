@@ -1,0 +1,125 @@
+/* General Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+h1, h2 {
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin: 10px 0;
+}
+
+/* Header Section */
+header {
+  background-color: #007bff;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.5em;
+}
+
+/* Section Styles */
+section {
+  margin: 50px 20px;
+}
+
+section h2 {
+  font-size: 2.5em;
+  color: #007bff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 15px 0;
+  font-size: 1.2em;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Skills List Styling */
+ul.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+}
+
+ul.skills li {
+  background-color: #007bff;
+  color: white;
+  border-radius: 8px;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 1em;
+}
+
+/* Footer (Contact Section) */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 1.1em;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2.2em;
+  }
+
+  header p {
+    font-size: 1.2em;
+  }
+
+  ul.skills li {
+    font-size: 0.9em;
+    padding: 8px 15px;
+  }
+}
